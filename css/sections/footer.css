@@ -15,23 +15,25 @@
   font-family: var(--playfair-display);
   text-transform: uppercase;
   color: var(--secondary-color);
+
   cursor: pointer;
 }
 
 .footer__logo span {
-  color: var(--primary-color);
+  color: var(--primary-color)
 }
 
 .footer ul {
   list-style: none;
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 64px;
 }
 
-.footer ul:last-child{
-    gap: 32px;
+.footer ul:last-child {
+  gap: 32px;
 }
 
 .footer__nav li {
@@ -44,17 +46,17 @@
   cursor: pointer;
 }
 
-.footer__social li{
-    width: 42px;
-    height: 42px;
-    background-color: var(--secondary-color);
-    border-radius: 100%;
-    cursor: pointer;
+.footer__social li {
+  width: 42px;
+  height: 42px;
+
+  background-color: var(--secondary-color);
+  border-radius: 100%;
 }
 
-.footer__social li img{
-    width: 45%;
-    height: 45%;
+.footer__social li img {
+  width: 45%;
+  height: 45%;
 
-    object-fit: contain;
+  object-fit: contain;
 }

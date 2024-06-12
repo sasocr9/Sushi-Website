@@ -10,7 +10,6 @@
 @import url("sections/subscribe.css");
 @import url("sections/footer.css");
 
-
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
   --playfair-display: "Playfair Display", serif;
@@ -46,6 +45,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 
 .flex-center {
   display: flex;
@@ -163,6 +163,7 @@ a {
   }
 }
 /* END: about us media queries */
+
 
 /* START: header media querie */
 @media screen and (max-width: 900px) {
